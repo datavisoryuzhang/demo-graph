@@ -1,9 +1,21 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@app/*": ["src/app/*"],
+      "@components/*": ["src/components/*"],
+      "@const/*": ["src/const/*"],
+      "@mocks/*": ["src/mocks/*"],
+      "@models/*": ["src/models/*"],
+      "@services/*": ["src/services/*"],
+      "@utils/*": ["src/utils/*"],
+      "@init-app/*": ["src/app/init-app/*"],
+      "@home/*": ["src/app/home/*"],
+      "@graph/*": ["src/app/graph/*"]
+    },
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,

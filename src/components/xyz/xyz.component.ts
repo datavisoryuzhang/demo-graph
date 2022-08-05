@@ -10,7 +10,7 @@ export class XyzComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    console.log('Lifecycle methods should not be empty  @angular-eslint/no-empty-lifecycle-method');
   }
-
 }
